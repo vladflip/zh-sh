@@ -78,6 +78,26 @@ body{
 	z-index:999;
 	background-color: rgba(0,0,0,.8);
 }
+
+#slider>.owl-controls>.owl-dots{
+	position:absolute;
+	top:340px;
+	left:594px;
+}
+#slider>.owl-controls>.owl-dots>.owl-dot.active{
+	background-color: #78c7ee;
+	border:0;
+	width:21px;
+	height:21px;
+}
+#slider>.owl-controls>.owl-dots>.owl-dot{
+	width:17px;
+	float:left;
+	height:17px;
+	margin:0 7px 0 0;
+	border-radius: 50%;
+	border:2px solid #fff;
+}
 /*____________________________/sliderdesc*/
 /*_____________________________________SLIDER*/
 
@@ -90,7 +110,7 @@ body{
 	font-weight: 600;
 }
 #mission>hr{
-	width:100px;
+	width:110px;
 	border:1px solid #555;
 }
 #mission>h3{
