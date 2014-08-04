@@ -12,8 +12,11 @@
 body{
 	font-family: 'Hand', sans-serif;
 }
+#maincontainer{
+	margin:auto;
+}
 .container{
-	width:1140px;
+	width:1132px;
 	margin:auto;
 }
 #header{
