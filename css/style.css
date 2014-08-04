@@ -4,6 +4,7 @@
     font-style: normal;
 
     src: url('../fonts/handbookpro.woff') format('woff'), url('../fonts/handbookpro.ttf') format('truetype'), url('../fonts/handbookpro.eot') format('embedded-opentype');
+    src: url('../fonts/thin.ttf') format('truetype');
 }
 
 
@@ -31,7 +32,8 @@ body{
 #menu>li{
 	font-size: 18px;
 	float:left;
-	margin:0 0 0 26px;
+	font-weight: 600;
+	margin:0 0 0 18px;
 	cursor:pointer;
 }
 #menu>li:hover{
@@ -44,32 +46,120 @@ body{
 	position:relative;
 	height:649px;
 }
-#sliderlogo{
+
+/*____________________________sliderdesc*/
+#sliderdesc{
 	position:absolute;
-	top:104px;
-	left:111px;
-	z-index: 99999999999999999999;
-	color:#fff;
-	font-size: 70px;
-	width:400px;
-}
-#sliderlogo>span:first-child{
-	font-size: 50px
-}
-.sliderdesc{
-	position:absolute;
+	bottom:0;
+	height:182px;
+	width:100%;
+	overflow: hidden;
 	z-index: 99999999999999999999999;
+}
+#sliderdesc .item{
 	color:#fff;
 	font-size: 20px;
 	font-weight: 100;
-	height:142px;
+	width:1020px;
 
 	bottom:6px;
-	background-color: rgba(0,0,0,.8);
-	padding:20px 110px;
+	padding:24px 110px;
+	line-height: 28px;
 }
-.sliderdesc p{
-	z-index: 99999999999999999999999;
+#sliderdesc .item p{
 	font-style:italic;
+	font-weight: 100;
 }
+#backdesc{
+	position:absolute;
+	bottom:0;
+	height:182px;
+	width:100%;
+	z-index:999;
+	background-color: rgba(0,0,0,.8);
+}
+/*____________________________/sliderdesc*/
 /*_____________________________________SLIDER*/
+
+/*_______________________________________MISSION*/
+
+#mission>h1{
+	text-align: center;
+	margin:32px 0 0 0;
+	font-size: 35px;
+	font-weight: 600;
+}
+#mission>hr{
+	width:100px;
+	border:1px solid #555;
+}
+#mission>h3{
+	margin:25px 0 0 0;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 100;
+}
+
+/*_____________________________alum*/
+
+#photoalbum{
+	margin:23px auto 0;
+	height:622px;
+	width:1132px;
+}
+#photoalbum>div{
+	overflow: hidden;
+	height:311px;
+	float:left;
+	width:566px;
+
+	color:#fff;
+	font-weight: 100;
+}
+
+#photoalbum>div:nth-child(2){
+	background-color: #ff8f22;
+	text-align: center;
+}
+#photoalbum>div:nth-child(3){
+	background-color: #78c7ee;
+	text-align: center;
+}
+#photoalbum>div:nth-child(2)>h1{
+	font-size: 35px;
+	margin:45px 0 0 0;
+	font-weight: 600;
+}
+#photoalbum>div:nth-child(2)>p{
+	padding:0 75px;
+	line-height: 18px;
+	font-size: 17px;
+}
+#photoalbum>div:nth-child(3)>h1{
+	font-size: 35px;
+	margin:45px 0 0 0;
+	font-weight: 600;
+}
+#photoalbum>div:nth-child(3)>p{
+	padding:0 75px;
+	line-height: 18px;
+	font-size: 17px;
+}
+.button{
+	margin:23px 0 0 0;
+}
+.button>a>hr{
+	width:110px;
+	border:1px solid #fff;
+}
+.button>a>h2{
+	margin:0;
+	padding:5px 0;
+	font-size: 17px;
+}
+.button>a{
+	text-decoration: none;
+	color:#fff;
+}
+/*_____________________________alum*/
+/*_______________________________________/MISSION*/
