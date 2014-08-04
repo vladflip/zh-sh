@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Hand';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/handbookpro.woff') format('woff'), url('../fonts/handbookpro.ttf') format('truetype'), url('../fonts/handbookpro.eot') format('embedded-opentype');
+}
+
+
+
+
+.container{
+	width:1140px;
+	margin:auto;
+}
+#header{
+	height:130px;
+}
+#logo{
+	float:left;
+	margin:14px 0 0 0;
+	cursor:pointer;
+}
+#menu{
+	float:right;
+	list-style: none;
+	margin:108px 0 0 0;
+}
+#menu>li{
+	font-family: 'Hand', sans-serif;
+	font-size: 18px;
+	float:left;
+	margin:0 0 0 26px;
+	cursor:pointer;
+}
+#menu>li:hover{
+	color:#2daae1;
+}
