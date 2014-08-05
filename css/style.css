@@ -14,7 +14,7 @@ body{
 }
 #maincontainer{
 	margin:auto;
-	width:1264px;
+	width:1265px;
 }
 .container{
 	width:1132px;
@@ -106,11 +106,21 @@ body{
 /*_____________________________________SLIDER*/
 
 /*_______________________________________MISSION*/
-
+#concon{
+	background-color: #f2f2f2;
+	overflow: hidden;
+	position:relative;
+}
+#mission{
+	background-color: #fff;
+	padding:34px 0 0 0;
+	position:relative;
+	z-index:999999999999;
+}
 #mission>h1{
 	text-align: center;
-	margin:32px 0 0 0;
 	font-size: 35px;
+	margin:0;
 	font-weight: 600;
 }
 #mission>hr{
@@ -187,3 +197,98 @@ body{
 }
 /*_____________________________alum*/
 /*_______________________________________/MISSION*/
+/*_________________________________________NEWS*/
+
+#news{
+	margin:50px 0 0 0;
+}
+#news>h1{
+	margin:0;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+#news>h1+hr{
+	width:110px;
+	border:1px solid #999;
+	margin:0 auto 30px;
+}
+
+
+#newslist{
+	margin:0;
+	padding:0;
+	height:295px;
+}
+#newslist .item{
+	width:268px;
+	background-color: #eaeaea;
+	padding:0 0 10px 0;
+}
+#newslist .item>h2{
+	text-align: center;
+	margin:0;
+	padding:15px 0;
+}
+#newslist .item>h4{
+	font-weight: 100;
+	font-size: 18px;
+	margin:10px 0;
+	text-align: center;
+}
+
+.buttonblue{
+	margin:15px 0 0 0;
+}
+.buttonblue>a>hr{
+	width:110px;
+	border:1px solid #78c7ee;
+}
+.buttonblue>a>h2{
+	margin:0;
+	padding:5px 0;
+	text-align: center;
+	font-size: 17px;
+}
+.buttonblue>a{
+	text-decoration: none;
+	color:#78c7ee;
+}
+
+#pagination{
+	height:50px;
+}
+/*_________________________________________/NEWS*/
+
+/*____________________________________________FOOTER*/
+
+#confooter{
+	position:relative;
+}
+#footer{
+	background-color: #000;
+	height:190px;
+	width:100%;
+	position:absolute;
+	bottom:-105px;
+}
+
+#icons{
+	margin:100px 70px 0 0;
+	float:right;
+}
+#icons>a{
+	margin:0 0 0 8px;
+}
+#footer>h3{
+	float:right;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 100;
+	margin:147px 115px 0 0;
+}
+#line>img{
+	width:1265px;
+}
+/*____________________________________________/FOOTER*/
